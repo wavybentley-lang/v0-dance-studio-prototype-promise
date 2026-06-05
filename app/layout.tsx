@@ -24,12 +24,12 @@ const dancingScript = Dancing_Script({
   display: 'swap',
 })
 
-const siteUrl = 'https://v0-dance-studio-prototype-h-demia.vercel.app'
+const siteUrl = 'https://v0-dance-studio-prototype-promise.vercel.app'
 const siteName = 'Accademia di Danza Promise'
 const siteTitle = 'Accademia di Danza Promise | Scuola di danza a Napoli'
 const siteDescription =
   'Accademia di Danza Promise e una scuola di danza a Napoli con percorsi di danza, tecnica accademica, danza moderna, recitazione e stage.'
-const ogImage = `${siteUrl}/hdemia/ogimage.jpg`
+const ogImage = `${siteUrl}/Promise/OGpromise.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
