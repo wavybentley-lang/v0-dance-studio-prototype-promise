@@ -47,30 +47,30 @@ export type TeamMember = {
 }
 
 export const brand = {
-  name: "Steps Dance School",
-  shortName: "Steps",
-  tagline: "Unisciti a noi per scoprire il tuo talento nascosto!",
+  name: "Accademia di Danza Promise",
+  shortName: "Promise",
+  tagline: "Dove la passione per la danza prende vita",
   logo: "",
-  phone: "+39 393 514 4234",
-  phoneHref: "tel:+393935144234",
-  whatsappHref: "https://wa.me/393935144234",
-  email: "stepsdance2005@gmail.com",
-  emailHref: "mailto:stepsdance2005@gmail.com",
-  instagramHref: "https://www.instagram.com/steps_dance_school/",
-  facebookHref: "https://www.facebook.com/stepsdanceschool/photos",
-  mapsHref: "https://maps.google.com/?q=STEPS+DANCE+SCHOOL+Via+Emilio+Reverberi+28+00043+Ciampino+RM",
-  primaryLocation: "Via Emilio Reverberi, 28",
-  secondaryLocation: "00043 Ciampino RM",
+  phone: "+39 379 286 1688",
+  phoneHref: "tel:+393792861688",
+  whatsappHref: "https://wa.me/393792861688",
+  email: "Email non disponibile",
+  emailHref: "#",
+  instagramHref: "https://www.instagram.com/accademiapromise/",
+  facebookHref: "https://www.facebook.com/accademiapromise/?locale=it_IT",
+  mapsHref: "https://maps.app.goo.gl/FLpgY8PMcPm4XhKk8",
+  primaryLocation: "Via Arenaccia, 127",
+  secondaryLocation: "80141 Napoli",
   cityLine: "Italy",
   hours:
-    "Monday: 9:30 AM - 9:30 PM\n" +
-    "Tuesday: 9:30 AM - 9:30 PM\n" +
-    "Wednesday: 9:30 AM - 9:30 PM\n" +
-    "Thursday: 9:30 AM - 9:30 PM\n" +
-    "Friday: 9:30 AM - 9:30 PM\n" +
-    "Saturday: Closed\n" +
-    "Sunday: Closed",
-  copyright: "2026 Steps Dance School",
+    "Lunedì: 9:00-13:30, 15:30-20:00\n" +
+    "Martedì: 9:00-13:30, 15:30-20:00\n" +
+    "Mercoledì: 9:00-13:30, 15:30-20:00\n" +
+    "Giovedì: 9:00-13:30, 15:30-20:00\n" +
+    "Venerdì: 9:00-13:30, 15:30-20:00\n" +
+    "Sabato: Chiuso\n" +
+    "Domenica: Chiuso",
+  copyright: "© 2026 Accademia di Danza Promise",
 }
 
 export const navLinks: NavLink[] = [
@@ -91,27 +91,27 @@ export const stats = [
 
 export const courseCategories: CourseCategory[] = [
   {
-    label: "Steps",
+    label: "Promise",
     courses: [
       {
         title: "Danza",
         age: "Percorsi formativi",
-        description: "Lezioni pensate per sviluppare tecnica, musicalita e presenza scenica in un percorso strutturato.",
+        description: "Lezioni pensate per sviluppare tecnica, musicalità e presenza scenica in un percorso strutturato.",
         image: "/sunriseforever-bounce-5277075.jpg",
         Icon: Zap,
       },
       {
         title: "Tecnica accademica e danza moderna",
         age: "Formazione tecnica",
-        description: "Studio della base accademica e della danza moderna per costruire precisione, controllo ed espressivita.",
+        description: "Studio della base accademica e della danza moderna per costruire precisione, controllo ed espressività.",
         image: "/karenbond-ballet-1409894.jpg",
         Icon: Flame,
       },
       {
         title: "Crossfit",
         age: "Esperienze artistiche",
-        description: "Gestualita corporea, recitazione, saggi, spettacoli e stage per completare la crescita scenica dell'allievo.",
-        image: "/pilates.jpg",
+        description: "Gestualità corporea, recitazione, saggi, spettacoli e stage per completare la crescita scenica dell'allievo.",
+        image: "/hdemia/crossfitness.jpg",
         Icon: Wind,
       },
     ],
@@ -119,10 +119,10 @@ export const courseCategories: CourseCategory[] = [
 ]
 
 export const featuredGalleryPhotos: { src: string; alt: string }[] = [
-  { src: "/nostrimomenti1.jpg", alt: "Steps momento 1" },
-  { src: "/nostrimomenti2.jpg", alt: "Steps momento 2" },
-  { src: "/nostrimomenti3.jpg", alt: "Steps momento 3" },
-  { src: "/nostrimomenti4.jpg", alt: "Steps momento 4" },
+  { src: "/Promise/nostirmomenti.jpg", alt: "Promise momento 1" },
+  { src: "/Promise/nostirmomenti1.jpg", alt: "Promise momento 2" },
+  { src: "/Promise/nostirmomenti2.jpg", alt: "Promise momento 3" },
+  { src: "/Promise/nostirmomenti3.jpg", alt: "Promise momento 4" },
 ]
 
 export const allGalleryPhotos = [
@@ -174,7 +174,7 @@ export const allGalleryPhotos = [
 
 export const salaArmoniaSchedule: ScheduleDay[] = [
   {
-    day: "LUNEDI",
+    day: "LUNEDÌ",
     classes: [
       { time: "10:00-11:00", name: "Danza Classica" },
       { time: "11:00-12:00", name: "Danza Aerea" },
@@ -187,7 +187,7 @@ export const salaArmoniaSchedule: ScheduleDay[] = [
     ],
   },
   {
-    day: "MARTEDI",
+    day: "MARTEDÌ",
     classes: [
       { time: "12:00-13:00", name: "Tessuto Aereo" },
       { time: "14:00-15:00", name: "Preparazione Esami Danza Aerea" },
@@ -200,7 +200,7 @@ export const salaArmoniaSchedule: ScheduleDay[] = [
     ],
   },
   {
-    day: "MERCOLEDI",
+    day: "MERCOLEDÌ",
     classes: [
       { time: "11:30-12:30", name: "Gioco Danza" },
       { time: "14:00-15:00", name: "Danza Aerea" },
@@ -212,7 +212,7 @@ export const salaArmoniaSchedule: ScheduleDay[] = [
     ],
   },
   {
-    day: "GIOVEDI",
+    day: "GIOVEDÌ",
     classes: [
       { time: "10:00-11:00", name: "Danza Classica" },
       { time: "11:00-12:00", name: "Danza Contemporanea" },
@@ -226,7 +226,7 @@ export const salaArmoniaSchedule: ScheduleDay[] = [
     ],
   },
   {
-    day: "VENERDI",
+    day: "VENERDÌ",
     classes: [
       { time: "14:00-15:00", name: "Preparazione Esami Danza Aerea" },
       { time: "18:00-19:00", name: "Danza Classica" },
@@ -259,18 +259,18 @@ export const scheduleBookingServices = [
 ]
 
 export const scheduleContactInfo = {
-  address: "Via Emilio Reverberi, 28, 00043 Ciampino RM, Italy",
-  phone: "+39 393 514 4234",
+  address: "Via Arenaccia, 127, 80141 Napoli, Italy",
+  phone: "+39 379 286 1688",
 }
 
 export const pricingCards = [
-  { Icon: Ticket, title: "Lezione Singola", description: "Ideale per provare un corso prima di iscriverti. Nessun impegno, massima flessibilita." },
-  { Icon: Calendar, title: "Abbonamento Mensile", description: "La soluzione piu flessibile per chi vuole ballare con regolarita ogni mese." },
+  { Icon: Ticket, title: "Lezione Singola", description: "Ideale per provare un corso prima di iscriverti. Nessun impegno, massima flessibilità." },
+  { Icon: Calendar, title: "Abbonamento Mensile", description: "La soluzione più flessibile per chi vuole ballare con regolarità ogni mese." },
   { Icon: CalendarRange, title: "Abbonamento Semestrale", description: "Sei mesi di lezioni con un risparmio rispetto all'abbonamento mensile." },
-  { Icon: Crown, title: "Abbonamento Annuale", description: "La scelta di chi vuole dare continuita al proprio percorso artistico. Massimo risparmio." },
+  { Icon: Crown, title: "Abbonamento Annuale", description: "La scelta di chi vuole dare continuità al proprio percorso artistico. Massimo risparmio." },
 ]
 
 export const pricingHighlights = [
-  { Icon: Tag, title: "Tariffe Differenziate", description: "I costi variano in base al corso scelto e all'eta dell'allievo. Contattaci per ricevere il preventivo personalizzato." },
+  { Icon: Tag, title: "Tariffe Differenziate", description: "I costi variano in base al corso scelto e all'età dell'allievo. Contattaci per ricevere il preventivo personalizzato." },
   { Icon: Users, title: "Sconti Famiglia", description: "Sono previste riduzioni speciali per fratelli e/o sorelle e per mamme e figlie che si iscrivono insieme." },
 ]
