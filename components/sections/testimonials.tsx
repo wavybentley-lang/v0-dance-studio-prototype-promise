@@ -29,7 +29,7 @@ export function TestimonialsSection() {
           <p className="mb-3 text-xs font-semibold tracking-[0.28em] text-primary uppercase">Recensioni Google verificate</p>
           <h2 className="mb-4 text-left font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-center">Dicono di noi</h2>
           <p className="max-w-none text-lg text-pretty text-muted-foreground lg:mx-auto lg:max-w-2xl">
-            Le parole di chi vive ogni giorno l'esperienza Promise.
+            Le parole di chi vive ogni giorno l'esperienza Steps Dance School.
           </p>
         </div>
 

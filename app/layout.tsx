@@ -25,11 +25,11 @@ const dancingScript = Dancing_Script({
 })
 
 const siteUrl = 'https://v0-dance-studio-prototype-promise.vercel.app'
-const siteName = 'Accademia di Danza Promise'
-const siteTitle = 'Accademia di Danza Promise | Scuola di danza a Napoli'
+const siteName = 'Steps Dance School'
+const siteTitle = 'Steps Dance School | Scuola di danza a Ciampino'
 const siteDescription =
-  'Accademia di Danza Promise e una scuola di danza a Napoli con percorsi di danza, tecnica accademica, danza moderna, recitazione e stage.'
-const ogImage = `${siteUrl}/Promise/OGpromise.jpg`
+  'Steps Dance School e una scuola di danza a Ciampino con corsi di danza classica, danza moderna, hip hop, propedeutica, canto, laboratorio teatrale e musical.'
+const ogImage = `${siteUrl}/OGIMAGE.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   keywords: [
-    'Accademia di Danza Promise',
-    'scuola di danza Napoli',
-    'accademia di danza Napoli',
-    'danza moderna Napoli',
-    'tecnica accademica Napoli',
-    'recitazione Napoli',
-    'stage danza Napoli',
-    'Via Arenaccia Napoli',
+    'Steps Dance School',
+    'scuola di danza Ciampino',
+    'scuola di danza Roma',
+    'danza moderna Ciampino',
+    'danza classica Ciampino',
+    'hip hop Ciampino',
+    'musical Ciampino',
+    'Via Emilio Reverberi 28 Ciampino',
   ],
   authors: [{ name: siteName }],
   creator: siteName,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
         secureUrl: ogImage,
         width: 1200,
         height: 630,
-        alt: 'Accademia di Danza Promise - Scuola di danza a Napoli',
+        alt: 'Steps Dance School - Scuola di danza a Ciampino',
         type: 'image/jpeg',
       },
     ],
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: ogImage,
-        alt: 'Accademia di Danza Promise - Scuola di danza a Napoli',
+        alt: 'Steps Dance School - Scuola di danza a Ciampino',
       },
     ],
   },

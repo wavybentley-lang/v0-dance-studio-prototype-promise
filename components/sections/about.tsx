@@ -23,8 +23,8 @@ export function AboutSection({ isVisible, setSectionRef }: AboutSectionProps) {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm border border-border bg-secondary">
             <Image
-              src="/Promise/chisiamo.jpg"
-              alt="Accademia di Danza Promise"
+              src="/stepdance/chisiamo.jpg"
+              alt="Steps Dance School"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
@@ -38,19 +38,19 @@ export function AboutSection({ isVisible, setSectionRef }: AboutSectionProps) {
             </h2>
             <div className="space-y-5 text-lg leading-relaxed text-pretty text-foreground">
               <p>
-                Una scuola di danza dove ogni percorso inizia con una promessa: aiutare ogni allievo a esprimere il proprio potenziale.
+                Una scuola di danza dove ogni percorso inizia con l'obiettivo di aiutare ogni allievo a esprimere il proprio potenziale.
               </p>
               <p>
-                Accademia di Danza Promise nasce dalla passione per larte del movimento e dallimpegno quotidiano nella formazione di bambini, ragazzi e adulti. Crediamo che la danza sia molto più di una disciplina: è uno strumento di crescita personale, espressione e consapevolezza.
+                Steps Dance School nasce dalla passione per l'arte del movimento e dall'impegno quotidiano nella formazione di bambini, ragazzi e adulti. Crediamo che la danza sia molto piu di una disciplina: e uno strumento di crescita personale, espressione e consapevolezza.
               </p>
               <p>
-                Allinterno della nostra accademia ogni allievo trova un ambiente accogliente, professionale e stimolante, dove sviluppare tecnica, musicalità, creatività e fiducia in sé stesso. Le lezioni sono pensate per accompagnare ogni percorso formativo con attenzione, valorizzando il talento individuale e il piacere di imparare.
+                All'interno della nostra scuola ogni allievo trova un ambiente accogliente, professionale e stimolante, dove sviluppare tecnica, musicalita, creativita e fiducia in se stesso. Le lezioni sono pensate per accompagnare ogni percorso formativo con attenzione, valorizzando il talento individuale e il piacere di imparare.
               </p>
               <p>
-                Attraverso corsi, spettacoli, stage ed esperienze artistiche, offriamo opportunità concrete per vivere la danza in tutte le sue forme, favorendo la crescita artistica e umana di ogni studente.
+                Attraverso corsi, spettacoli, stage ed esperienze artistiche, offriamo opportunita concrete per vivere la danza in tutte le sue forme, favorendo la crescita artistica e umana di ogni studente.
               </p>
               <p>
-                Che si tratti dei primi passi nel mondo della danza o di un percorso più avanzato, il nostro obiettivo è lo stesso: trasformare la passione in esperienza, emozione e crescita.
+                Che si tratti dei primi passi nel mondo della danza o di un percorso piu avanzato, il nostro obiettivo e lo stesso: trasformare la passione in esperienza, emozione e crescita.
               </p>
             </div>
           </div>
