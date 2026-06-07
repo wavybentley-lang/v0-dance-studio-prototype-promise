@@ -107,8 +107,6 @@ export function ScheduleSection({ isVisible, setSectionRef }: AnimatedSectionPro
 
         <p className="mt-6 text-center text-sm leading-relaxed text-muted-foreground">
           {scheduleContactInfo.address}
-          <br />
-          {scheduleContactInfo.phone}
         </p>
       </div>
     </section>

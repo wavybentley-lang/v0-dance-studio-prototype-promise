@@ -58,9 +58,9 @@ export const brand = {
   emailHref: "#",
   instagramHref: "https://www.instagram.com/accademiapromise/",
   facebookHref: "https://www.facebook.com/accademiapromise/?locale=it_IT",
-  mapsHref: "https://maps.app.goo.gl/FLpgY8PMcPm4XhKk8",
-  primaryLocation: "Via Arenaccia, 127",
-  secondaryLocation: "80141 Napoli",
+  mapsHref: "https://maps.google.com/?q=Via+Genova,+108,+80143+Napoli+NA",
+  primaryLocation: "Via Genova, 108",
+  secondaryLocation: "80143 Napoli NA",
   cityLine: "Italy",
   hours:
     "Lunedì: 9:00-13:30, 15:30-20:00\n" +
@@ -259,7 +259,7 @@ export const scheduleBookingServices = [
 ]
 
 export const scheduleContactInfo = {
-  address: "Via Arenaccia, 127, 80141 Napoli, Italy",
+  address: "Via Genova, 108, 80143 Napoli NA, Italy",
   phone: "+39 379 286 1688",
 }
 

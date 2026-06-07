@@ -232,7 +232,7 @@ export function ContactSection({
           <h3 className="mb-6 font-serif text-2xl font-bold text-foreground">Dove Siamo</h3>
           <div className="aspect-video w-full overflow-hidden rounded-sm border border-border md:aspect-[21/9]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.7262857691285!2d12.5952504!3d41.812656499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325884205c13a51%3A0xd5269796ce47a7f6!2sSteps%20Dance%20School!5e0!3m2!1sen!2sit!4v1780752958476!5m2!1sen!2sit"
+              src="https://www.google.com/maps?q=Via%20Genova%2C%20108%2C%2080143%20Napoli%20NA&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
